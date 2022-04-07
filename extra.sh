@@ -25,15 +25,7 @@ sudo apt install $LIST_OF_APPS -y
 sudo apt install docker.io -y
 sudo systemctl enable --now docker
 sudo usermod -aG docker $USER
-
-
-
-
-# VPN L2TP Connections
-sudo apt update
-sudo apt install libreswan network-manager-l2tp network-manager-l2tp-gnome -y
-
-
+ 
 
 
 # VSCode

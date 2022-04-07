@@ -14,7 +14,7 @@ echo -e  "${BOLDGREEN}----> Extra Packages  Installed SUCCESSFULLY.${ENDCOLOR}"
 
 echo -e  "${ITALICRED}---->  installing git...${ENDCOLOR}"
 
-# sh ./git.sh
+ sh ./git.sh
 echo -e  "${BOLDGREEN}----> git Installed SUCCESSFULLY.${ENDCOLOR}"
 
 
@@ -22,7 +22,7 @@ echo -e  "${BOLDGREEN}----> git Installed SUCCESSFULLY.${ENDCOLOR}"
 
 echo -e  "${ITALICRED}---->  installing Node v14.8.0...${ENDCOLOR}"
 
-# sh ./nvm_node.sh
+ sh ./nvm_node.sh
 echo -e  "${BOLDGREEN}----> NVM and Node v14.8.0 Installed SUCCESSFULLY.${ENDCOLOR}"
 
 
@@ -30,7 +30,7 @@ echo -e  "${BOLDGREEN}----> NVM and Node v14.8.0 Installed SUCCESSFULLY.${ENDCOL
 
 echo -e  "${ITALICRED}---->  installing Angular and serverless...${ENDCOLOR}"
 
-#sh ./angular.sh
+sh ./angular.sh
 echo -e  "${BOLDGREEN}----> Angular and serverless Installed SUCCESSFULLY.${ENDCOLOR}"
 
 
@@ -38,27 +38,27 @@ echo -e  "${BOLDGREEN}----> Angular and serverless Installed SUCCESSFULLY.${ENDC
 
 echo -e  "${ITALICRED}----> installing ELK STACK...${ENDCOLOR}"
 
-# sh ./elk.sh
+ sh ./elk.sh
 
 echo -e  "${BOLDGREEN}----> ELK STACK INSTALLED SUCCESSFULLY.${ENDCOLOR}"
 
 
 echo -e  "${ITALICRED}---->  installing Node v14.8.0...${ENDCOLOR}"
 
-# sh ./nvm_node.sh
+ sh ./nvm_node.sh
 echo -e  "${BOLDGREEN}----> NVM and Node v14.8.0 Installed SUCCESSFULLY.${ENDCOLOR}"
 
 
 
 echo -e  "${ITALICRED}---->  installing Redis...${ENDCOLOR}"
 
-#sh ./redis.sh
+sh ./redis.sh
 
 echo -e  "${BOLDGREEN}----> redis Installed SUCCESSFULLY.${ENDCOLOR}"
 
 
 echo -e  "${ITALICRED}---->  installing postgresql...${ENDCOLOR}"
 
-#sh ./postgres.sh
+sh ./postgres.sh
 
 echo -e  "${BOLDGREEN}----> postgresql Installed SUCCESSFULLY.${ENDCOLOR}"
