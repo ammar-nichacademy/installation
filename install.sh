@@ -28,10 +28,10 @@ echo -e  "${BOLDGREEN}----> NVM and Node v14.8.0 Installed SUCCESSFULLY.${ENDCOL
 
 
 
-echo -e  "${ITALICRED}---->  installing Angular v11.2.15...${ENDCOLOR}"
+echo -e  "${ITALICRED}---->  installing Angular and serverless...${ENDCOLOR}"
 
 #sh ./angular.sh
-echo -e  "${BOLDGREEN}----> Angular v11.2.15 Installed SUCCESSFULLY.${ENDCOLOR}"
+echo -e  "${BOLDGREEN}----> Angular and serverless Installed SUCCESSFULLY.${ENDCOLOR}"
 
 
 
