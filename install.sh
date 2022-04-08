@@ -43,12 +43,6 @@ echo -e  "${ITALICRED}----> installing ELK STACK...${ENDCOLOR}"
 echo -e  "${BOLDGREEN}----> ELK STACK INSTALLED SUCCESSFULLY.${ENDCOLOR}"
 
 
-echo -e  "${ITALICRED}---->  installing Node v14.8.0...${ENDCOLOR}"
-
- sh ./nvm_node.sh
-echo -e  "${BOLDGREEN}----> NVM and Node v14.8.0 Installed SUCCESSFULLY.${ENDCOLOR}"
-
-
 
 echo -e  "${ITALICRED}---->  installing Redis...${ENDCOLOR}"
 
